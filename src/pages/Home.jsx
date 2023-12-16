@@ -8,9 +8,9 @@ const Home = () => {
     const adjustRoomForScreenSize = () =>{
         let screenScale= null
         let screenPosition = [0, -1.5, -1.5];
-        let rotation = [0.4, -0.75, 0]
+        let rotation = [0.4, -0.8, 0]
         if (window.innerWidth < 768){
-            screenScale = [0.9, 0.9, 0.9];
+            screenScale = [0.7, 0.7, 0.7];
         }else{
             screenScale = [1, 1, 1];
         }
